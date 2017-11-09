@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <title>hello</title>
+        <style>
+            .margin-top {
+              margin-top: 10rem;
+            }
+            .overlay-container {
+              position: relative;
+            }
+            .overlay-container img {
+              display: block;
+              width: 100%;
+              height: auto;
+            }
+            .overlay {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              height: 100%;
+              width: 100%;
+              opacity: 0;
+              transition: .5s ease;
+              background-color: #0C7054;
+            }
+            .overlay-container:hover .overlay {
+              opacity: 0.9;
+            }
+            .text {
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              text-align: center;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+            }
+            #projects .row>div {
+              padding: 0;
+            }
+        </style>
+    <body>
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">
+                Home
+              </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Locations</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- END NAVIGATION -->    
+    </head>
+      <div class="container"><h2 style="height:180px;text-align:center;line-height: 180px;background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/cleveland-skyline-night-color-downtown-buildings-jon-holiday.jpg);color:white;font-size:50px;background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top; background-size: 100% 70%;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">ABBE Property Management</h2>
+        <form class="form-inline">
+          <h3>Find an apartment near you!</h3>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Address, City or Zip Code">
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        <div class="page" id="about">
+          <div class="content margin-top">
+            <div class="row">
+              <div class="col-sm-3">
+                <h2>"Serving the People of Euclid Since 1843"</h2>
+              </div>
+              <!-- Hi -->
+              <div class="col-sm-9">
+                <p> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                  pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+                  nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis
+                  eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                  tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+                  viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+                  Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+                  tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam
+                  quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec
+                  vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+                  Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum
+                  sodales, augue velit cursus nunc</p>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
+                  small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic
+                  country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control
+                  about the blind texts it is an almost unorthographic life One day however a small line of blind text by the
+                  name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so,
+                  because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind
+                  Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+                  When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown
+                  Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a
+                  rethoric question ran over her cheek</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="projects" class="margin-top">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="overlay-container img-responsive">
+                <img src="http://image2.apartmentfinder.com/i2/nWtAXpRnNttYUv_JzBDiWK-WFz9dAChMAb7Sbchk3pE/117/17720-lake-shore-blvd-cleveland-oh-primary-photo.jpg" class="img-responsive">
+                <div class="overlay">
+                  <div class="text">
+                    <h3>17720 Lakeshore Blvd</h3>
+                    <p>No Availability</p>
+                    <a href="http://www.apartmentfinder.com/Ohio/Cleveland-Apartments/17720-Lake-Shore-Blvd-Apartments-1chxwp5" class="btn btn-primary">More Information</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="overlay-container img-responsive">
+                <img src="https://maps.googleapis.com/maps/api/streetview?channel=ldp-publicrecord&location=17620+Lakeshore+Blvd%2C+Cleveland%2C+OH+44119&size=665x441&client=gme-redfin&signature=HZCikKq5K6-m4ccx5gx45Sznqw0=" class="img-responsive">
+                <div class="overlay">
+                  <div class="text">
+                    <h3>17620 Lakeshore Blvd</h3>
+                    <p>No Availability</p>
+                    <a href="https://www.redfin.com/OH/Cleveland/17620-Lakeshore-Blvd-44119/home/70768825" class="btn btn-primary">More Information</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="overlay-container img-responsive">
+                <img src="https://maps.googleapis.com/maps/api/streetview?channel=ldp-publicrecord&location=17805+Lakeshore+Blvd%2C+Cleveland%2C+OH+44119&size=665x441&client=gme-redfin&signature=8dn_Uph8cd3m5ZEplB8NplqiyO0=" class="img-responsive">
+                <div class="overlay">
+                  <div class="text">
+                    <h3>More Locations</h3>
+                    <p>Coming Soon</p>
+                    <a href="https://www.zillow.com" class="btn btn-primary">More Information</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="question" class="margin-top"></div>
+  <h3>Have a Question or Concern? Call us at 216-548-4810 or submit your question below!</h3>
+  <form action="https://formspree.io/shivakmw@mail.uc.edu"
+  method="POST">
+      <div class="form-group">
+        <label for="inputname">Name</label>
+        <input type="text" class="form-control" id="example name" placeholder="First Last" name="Name">
+      </div>
+      <div class="form-group">
+          <label for="number">Phone Number</label>
+          <input type="number" class="form-control" id="number" placeholder="XXX-XXX-XXXX" name="Phone Number"> 
+      </div>
+      <div class="form-group">
+          <label for="email">Email Address (Optional)</label>
+          <input type="email" class="form-control" id="email" placeholder="example@domain.com" name="_replyto">
+        </div> 
+      <div class="form-group">
+          <label for="Question">Question/Concern</label>
+          <textarea type="text" class="form-control" id="question" placeholder="Question" name="Question" rows="3"></textarea>
+        </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+  </html>
